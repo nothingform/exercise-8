@@ -1,0 +1,31 @@
+body{
+    background-color: yellow;
+}
+.box {
+    background-color: white;
+    width: 119px;
+      margin-top: 10%;
+    padding: 0;
+        border: solid black;
+       display: grid;
+    
+  }
+  .box1{
+    background-color: white;
+   width: 260px;
+      margin-top: 2%;
+        padding: 20px;
+        border: solid black;
+      text-align: left;
+        display: grid;
+      
+  }
+ 
+  .row{
+    display: grid;
+    gap: 10px 0;
+    grid-template-columns: auto auto auto auto auto;
+   
+      margin-left: 20%;
+
+  }
